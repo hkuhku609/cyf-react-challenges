@@ -1,0 +1,125 @@
+.App-header {
+  background-color: #767f92;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.bold {
+  font-weight: bolder;
+}
+.filter-container {
+  background-color: #282c34;
+  min-width: 60rem;
+  height: 3rem;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 0.3rem 1rem;
+}
+
+.word-close {
+  color: #007206;
+  background-color: #bbffee;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: transparent;
+}
+.clear {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.clear:hover {
+  text-decoration: underline;
+}
+.card-container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  min-width: 60rem;
+  margin: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.left {
+  gap: 1rem;
+}
+.profilePic {
+  place-items: center;
+}
+.information {
+  display: grid;
+  align-items: center;
+}
+.heading {
+  gap: 1rem;
+}
+.company {
+  font-size: 1rem;
+  color: #86ffe1;
+}
+.footer {
+  font-size: 1rem;
+  color: #767f92;
+}
+.new {
+  background-color: #008b69;
+}
+.featured {
+  background-color: #000;
+}
+.tags {
+  gap: 0.5rem;
+}
+.tag {
+  display: grid;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right > button,
+.words > span {
+  color: #fff;
+  background-color: #008b69;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: transparent;
+}
+.right > button:hover,
+.words > button:hover {
+  color: #007206;
+  background-color: #bbffee;
+}
+.words > span {
+  cursor: auto;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
